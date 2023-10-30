@@ -1,0 +1,58 @@
+body {
+  background: #F76902;
+  animation-direction: alternate;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: White
+}
+
+@keyframes flash {
+  from {
+    background-color: #F76902;
+    color: #F76902;}
+  to {
+    background-color: Crimson;
+    color: Crimson;}
+}
+
+div.uid-textbox{
+  width: 20px;
+  height: 18px;
+  background-color: Blue;
+}
+
+input {
+  color:#F76902;
+  background-color:#F76902;
+  border: none;
+  outline: none;
+  position: absolute;
+  left: 20px;
+}
+
+div.server-response{
+  color:black;
+}
+
+div.machine-use{
+  color:black;
+}
+
+div.user-time {
+  color:black;
+}
+
+div.machine-time {
+  display: none;
+}
+
+div.header {
+  background-color: #F76902;
+  min-height: 1em;
+}
+
+img {
+  min-width: 40%;
+}
+
